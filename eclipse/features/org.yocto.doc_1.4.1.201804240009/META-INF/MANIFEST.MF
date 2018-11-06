@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: 10.0.1 (Oracle Corporation)
+
+Name: feature.xml
+SHA-256-Digest: U1lu4gma+89xJKxUzivva4xTbLArv/0AKptpQbxt7iY=
+
+Name: feature.properties
+SHA-256-Digest: /BsZTjTHsnpKhMqNv4Lzf7xBsWilryOLSK2/Q6qq55s=
+
+Name: license.html
+SHA-256-Digest: 1WoSTQfM7E4e+sgY+PxTfvvpDRgHpRf850YRV9Xi2eA=
+

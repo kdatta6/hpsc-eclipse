@@ -1,0 +1,34 @@
+HPSC Chiplet Eclipse Release Guide
+
+USC/Information Sciences Institute
+
+
+*** OVERVIEW ***
+
+This package contains a version of the Eclipse IDE that is specifically designed for the HPSC Chiplet's High Performance Processing Subsystem (HPPS).  At the top level, this package contains the following files and directories:
+
+1.  eclipse - Directory that contains the Eclipse executable.
+
+2.  eclipse_installer.sh - The script that installs the SDK and sets up the Eclipse workspace prior to starting the Eclipse IDE for the first time.
+
+3.  eclipse_workspace - Directory that contains Eclipse workspace-specific files, including the Yocto plug-in for Eclipse.
+
+4.  poky-glibc-x86_64-core-image-minimal-aarch64-toolchain-2.4.3.sh - The cross-toolchain installer.
+
+5.  qemu_files - Directory that contains the QEMU executable (qemu-system-aarch64) as well as all necessary files for booting QEMU.
+
+6.  README -  This file.
+
+7.  sysroot - Directory that contains the root file system used by QEMU.
+
+*** INSTALLATION ***
+
+The first step is to call the eclipse_installer.sh script:
+
+> sh eclipse_installer.sh
+
+This will install the cross-toolchain SDK in a high-level directory called "sdk".  It will also place the appropriate files within the "eclipse-workspace" directory.  The next step will be to run the Eclipse executable:
+
+> ./eclipse/eclipse
+
+This will open Eclipse with the cross-toolchain SDK set to be used within the Yocto plug-in's standard profile.

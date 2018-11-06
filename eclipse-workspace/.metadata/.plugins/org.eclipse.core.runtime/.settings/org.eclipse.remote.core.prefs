@@ -1,0 +1,8 @@
+connections/org.eclipse.remote.JSch/QEMU_instance/JSCH_ADDRESS_ATTR=127.0.0.1
+connections/org.eclipse.remote.JSch/QEMU_instance/JSCH_IS_PASSWORD_ATTR=false
+connections/org.eclipse.remote.JSch/QEMU_instance/JSCH_LOGIN_SHELL_COMMAND_ATTR=/bin/bash -l -c '{0}'
+connections/org.eclipse.remote.JSch/QEMU_instance/JSCH_PORT_ATTR=10022
+connections/org.eclipse.remote.JSch/QEMU_instance/JSCH_TIMEOUT_ATTR=0
+connections/org.eclipse.remote.JSch/QEMU_instance/JSCH_USERNAME_ATTR=root
+connections/org.eclipse.remote.JSch/QEMU_instance/JSCH_USE_LOGIN_SHELL_ATTR=true
+eclipse.preferences.version=1

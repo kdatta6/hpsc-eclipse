@@ -1,0 +1,263 @@
+Signature-Version: 1.0
+Created-By: 10.0.1 (Oracle Corporation)
+SHA-256-Digest-Manifest: FtDYpNnLrycxp7cCh3MjGsOb7r/+WfnXgdK/iHQriF4=
+SHA-256-Digest-Manifest-Main-Attributes: VQ4T9jMum+TmbU3thGydik+lOpOlQ
+ fmn/k7VUGHcuG0=
+
+Name: plugin.xml
+SHA-256-Digest: jjia8I0ctNhbPfgFeumYRIWIedjok1+tMapqQ/PiI2Y=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCAutotoolsProject/template.properties
+SHA-256-Digest: BrhgHJmkMLDECR81gluKTlod8csfpzd5JJDbg1zQ3Go=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCPPAutotoolsProject/src/autogen.sh
+SHA-256-Digest: SfBWs47yRrAwTHUdn281TbdU5XjcyOykqV0zF28qhhk=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/Licenses/COPYING_MIT
+SHA-256-Digest: WLUbEiQh65dJSdZZjkZx0OayJ00D0XBKkFlj4WooB0I=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCGTKAutotoolsProject/src/ChangeLog
+SHA-256-Digest: uril175Lys8yIzcP+GcSqiY4q3W6j42dMNwKBtEhC1c=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCPPAutotoolsProject/src/NEWS
+SHA-256-Digest: wBGyJvMaf9rCPRHgLeSCly8rJaIkr1xJb+1c6XtOf8w=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCPPAutotoolsProject/src/INSTALL
+SHA-256-Digest: 6Sz42HOUTIWwy5XcLESx97ngWxSHjDwMCcWxfb53hzU=
+
+Name: plugin.properties
+SHA-256-Digest: 41mtCe/wWFfJSU/eIk5J3AeLyBwAgLLh02VVTXeyukk=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCAutotoolsProject/src/Basename.c
+SHA-256-Digest: RqTxHOjMa8CoP4SGblgbIS+ijD4yULQ4588qVOTZsmU=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/Licenses/COPYING_LGPLv2.1
+SHA-256-Digest: ACLID1y4xG39lQbvMHOX/u9IpcOErs9FPeFjhnXwNRI=
+
+Name: src/org.yocto.sdk.ide.doc.user_1.4.1.201804240009/cheatsheets/cr
+ eateNewHelloWorldProject.xml
+SHA-256-Digest: AxC9wxUjJhJgrjoPs+A/RLR5MgkU3fRrCBKKkqvF2t8=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/Licenses/Header_GPLv2_or_later
+SHA-256-Digest: fIlWopMiT/ASqdI2yaQTlmh/WbphOkaBbCOssuWpZEY=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/Licenses/AUTHORS
+SHA-256-Digest: H8MubtFUkh07HIWk3dw7qfEdkiXBWVsEBtfhZ+WZyFU=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCPPAutotoolsProject/src/ChangeLog
+SHA-256-Digest: zFQ8xEIyuj4abuz0Hhpp6pYEZSBmEBgcCE6Qs/e4BQo=
+
+Name: src/org.yocto.remote.utils_1.4.1.201804240009/src.zip
+SHA-256-Digest: mzKYcESvMiukNb3yHnbjXSdEzU+WUxQgi8HvkHd6sCY=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCAutotoolsProject/src/NEWS
+SHA-256-Digest: ucURoSnNqqUunIVlU4FFakPWEH9xah8CNYhFppnkrk8=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCGTKAutotoolsProject/src/README
+SHA-256-Digest: OzCanw5q2Sr7EKtXcj1PvJT/scRYP3k095lSjd+SMl0=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/Licenses/Header_MIT
+SHA-256-Digest: Lils2vFZw6CfiN5WaQbWHFZKA+YQEEF+aEXMTKRQgdo=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/src.zip
+SHA-256-Digest: w0vkbLWEA/+wZ96tTfRDQErdnPB4rdkkXLAWQQBH4aE=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/EmptyCAutotoolsProject/template.properties
+SHA-256-Digest: AyEu15xAm8uHpp2k8JBVvzPiJZZGFyEwsUlJ/K1tcXs=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCPPAutotoolsProject/src/README
+SHA-256-Digest: sjjtq75MTvk4gmlYcCRD4B8W4WQXt0z44IciaLzst38=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCGTKAutotoolsProject/src/Makefile.am.src
+SHA-256-Digest: 5cQCKMfEVR6yWetTnSjPGiOXPcCsAD3ltaHki3Hbs68=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCPPAutotoolsProject/src/Makefile.am.top
+SHA-256-Digest: rxgFYgedzf07DrP6gab5sj1g6/6+lSxx95tP7wrOIa0=
+
+Name: src/org.yocto.sdk.remotetools_1.4.1.201804240009/src.zip
+SHA-256-Digest: v+2ylRQ+r4//uvPNf7g30uKUheLjvuJS7tmfB6s+qbI=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/Licenses/Header_LGPLv3
+SHA-256-Digest: zy0TjazWH8GneU6JbOO3yjKbL8nEqm7WfZ704wuMK8c=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCGTKAutotoolsProject/src/configure.ac.top.old
+SHA-256-Digest: Lj8UzW1xPCj+AgbYSTsGoIMeF+jpnFady8R5mi4zSQY=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCGTKAutotoolsProject/src/Basename.desktop.in.src
+SHA-256-Digest: JbBdsvq+uHSibysBRLaJQLdTMzbDrDBqzfFIYGYaHOk=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/Licenses/Header_GPLv2
+SHA-256-Digest: bljzdspVtP/5JA6f7HHsVeW1FT3rGZUl6jmtgBIkBV4=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCPPAutotoolsProject/src/Basename.cpp
+SHA-256-Digest: vaiYPFdqxuS5FC51SKeLd+gN+YaHUgir7kQL1/FHdFQ=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/Licenses/Header_GPLv3
+SHA-256-Digest: 6GIBMPUy98bjr2L+qq01DSa11+TGCRehyR4dXNHUlUk=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/EmptyCPPAutotoolsProject/template.properties
+SHA-256-Digest: VZ+kOvv/5Me2ywG62tdyghcbyraWl8SDsZSidZwuHmQ=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCAutotoolsProject/src/Makefile.am.top
+SHA-256-Digest: c7BMEjRC+8cmM/B8QOg4RNhLpfyZG0+0nTwtOZz2s5A=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCPPAutotoolsProject/template.properties
+SHA-256-Digest: /m+2GkpOW7Eu2TYebhzRTxmZoWQyhk2pj7U/nt5VK7c=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/EmptyCAutotoolsProject/template.xml
+SHA-256-Digest: qOtHe+Xd4qSCEkImB8/2RHY+63crGqThiv2jVHeaFIM=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/EmptyCPPAutotoolsProject/template.xml
+SHA-256-Digest: aUSyN9mCmejllTCgmb6Esfk0BPag/TtQhZiEj+BYoT8=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCPPAutotoolsProject/template.xml
+SHA-256-Digest: WhJoUATgvRioIiSB/FLN0YU8QVDUpTf23gLGUssbkqg=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/Licenses/COPYING_LGPLv3
+SHA-256-Digest: lh2fihCa0VW/R2X9NFTN7Q5wzSkKMT8tTHKuhd7SEQg=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/Licenses/COPYING_GPLv3
+SHA-256-Digest: wkLj23gqBv/9T5g49eyCbp4NoL8J0wDqNxomL7gnPuw=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/Licenses/COPYING_GPLv2
+SHA-256-Digest: u8YkNgnNungQN3B5q2sjABY/oX6qW3gTAR5iVSm+qK4=
+
+Name: src/org.yocto.cmake.managedbuilder_1.4.1.201804240009/src.zip
+SHA-256-Digest: P5bDoKUbtpapCwfH2WxdhyzUQpa2DrLiPc8WvB9yE6o=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCAutotoolsProject/src/Makefile.am.src
+SHA-256-Digest: BbX1I9XBVa7PZYRkUKE3NwqgmDIVnZDxMaL+vgtFnXU=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/Licenses/COPYING_GPLv2_or_later
+SHA-256-Digest: k6X8ahVQCLM6y4DXTsM8dhmGDYa6Z+aarVIINZitEgM=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/Licenses/Header_BSD
+SHA-256-Digest: yTZzm/Gx+QlMdoWfaPkTVQqzIObj8Zo1KUyhTMzYlFk=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCAutotoolsProject/src/README
+SHA-256-Digest: 6PX3HQjTvBVRUFSg0YtKmr4NwR0pWSY86P8z0vv3aKQ=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/Licenses/COPYING_Other
+SHA-256-Digest: r9DeBctTglqqfduuFRB2/PRNnwCn8n3u++HR87VP7CQ=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCAutotoolsProject/src/ChangeLog
+SHA-256-Digest: lpOfag7S+YZRitZrYR7gp7qUsI9DsO6DhtJ8EE/hI0M=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCAutotoolsProject/template.xml
+SHA-256-Digest: PURxcK8W2mOnHzmadxgST1GN2vHCE/sHutvfkjvVcUA=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCAutotoolsProject/src/Basename.desktop.in.src
+SHA-256-Digest: fI/hiCbl7mAXf15b3ogVR/yWVzZlWfnLFV2m2QuDUVE=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCPPAutotoolsProject/src/Makefile.am.src
+SHA-256-Digest: f3D6z+cMwtkSvvcvCo9Epp63ArtL9T7VvpsCVEx3kGg=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCPPAutotoolsProject/src/configure.ac.top
+SHA-256-Digest: gocD4jSgv2m143C2fiOldr26pyhx3HTLCFi3p6UdWeM=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCGTKAutotoolsProject/src/Makefile.am.top
+SHA-256-Digest: z1R7ov0JqFjiFt3H65wzLra/SB/IzIg8DSCfukAYE5s=
+
+Name: license.html
+SHA-256-Digest: gPB5Y3UQX5qt7WLKdyJBAR1agZfG/EGm/3XbB8Pu3Yc=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCGTKAutotoolsProject/src/NEWS
+SHA-256-Digest: AItzUfVLyWWs14h70A7Fdcdknxi6lwhutAMr0SBEVZQ=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCGTKAutotoolsProject/src/autogen.sh
+SHA-256-Digest: q4ywQUepGrXWePTYhmA1CRdDwHx2E5fF8Kr+ftfLJeA=
+
+Name: src/org.yocto.sdk.remotetools_1.4.1.201804240009/lib/json-simple
+ -1.1.1.jar
+SHA-256-Digest: CFO9qPmeocuKHx9jtc0+VjTkR0eXOpJszu2cOEwZeVs=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/Licenses/Header_LGPLv2.1
+SHA-256-Digest: uGGtsRyj5cl/ECbFz2XuvqQQp8xqCMUksvP89mX8l5o=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCAutotoolsProject/src/autogen.sh
+SHA-256-Digest: GN8EWbaYoAtou/UprgXl46FSaEL4kyddlcxxTGssFS0=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCGTKAutotoolsProject/src/INSTALL
+SHA-256-Digest: UOtzGzBhWPVHVr2JjM2wOVxG+zJJsgx3/EMF7kA0ygY=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCGTKAutotoolsProject/template.properties
+SHA-256-Digest: Auw6Kb0dmzZ0CnElGc5fKQ2oZVhM+OTWWsfkyo+hfCg=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/Licenses/COPYING_BSD
+SHA-256-Digest: tVM6pRGAyOLs9ymFofIlDGrtCwljEzpoU8ct/B7ialM=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCGTKAutotoolsProject/src/configure.ac.top
+SHA-256-Digest: CVaFGgBij2k9InEXSqMle8imAuFt/1Uh8mzAkNSYb4A=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCGTKAutotoolsProject/src/Basename.c
+SHA-256-Digest: NnMXDHyg7uwHmAxq9eIhBhN4pkZtpIXlc4gMuISfbBg=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCAutotoolsProject/src/configure.ac.top
+SHA-256-Digest: UUsNvVclBYl+e02vUJxzRyI7mMilXsfMpQ/XwvdHU/A=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCGTKAutotoolsProject/template.xml
+SHA-256-Digest: d2SaneqOe8Owz8jSxCT7OTz78oxu+FK5jN0BuDYi/Tg=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/HelloWorldCAutotoolsProject/src/INSTALL
+SHA-256-Digest: wYTL6qwyBEnTfumDMs4svvKcOg2UyeeWxkHeVuUcl9c=
+
+Name: src/org.yocto.sdk.ide_1.4.1.201804240009/templates/projecttempla
+ tes/Licenses/Header_Other
+SHA-256-Digest: 49eBrV+dFgyEB3QXD08rSX0sYGnOVuSYnzR3NeN3kCc=
+

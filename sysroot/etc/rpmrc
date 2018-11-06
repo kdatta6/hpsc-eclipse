@@ -1,0 +1,1 @@
+arch_compat: zcu102_zynqmp: all any noarch aarch64 microblazeel_v9.2_bs_cmp zcu102_zynqmp

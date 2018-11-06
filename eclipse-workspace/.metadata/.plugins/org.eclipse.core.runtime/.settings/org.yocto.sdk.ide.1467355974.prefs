@@ -1,0 +1,6 @@
+SDKMode=true
+Sysroot=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot
+TargetMode=false
+eclipse.preferences.version=1
+toolChainRoot=/home/kdatta/Documents/eclipse_package/eclipse_package/sdk
+toolchainTriplet=aarch64-poky-linux
