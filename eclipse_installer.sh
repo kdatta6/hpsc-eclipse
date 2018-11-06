@@ -7,8 +7,12 @@ sysRoot=${PWD}/sysroot
 qemuFilesRoot=${PWD}/qemu_files
 
 # install the cross-toolchain SDK in the path specified by the user (which is recorded as "toolChainRoot")
-echo "What is the directory path where the toolchains are installed?"
+echo "What is the directory path where the toolchains (hpps_linux_toolchain and gcc-arm-none-eabi-7-2018-q2-update) are installed?"
 read toolChainRoot
+echo "What is the name of the HPPS toolchain directory?"
+read hppsLinuxToolchainDir
+echo "What is the name of the GNU toolchain directory (for Arm Cortex-M and Cortex-R processors)?"
+read embeddedToolchainDir
 
 # set up Eclipse workspace path
 eclipse_workspace_prefs=${PWD}/eclipse/configuration/.settings/org.eclipse.ui.ide.prefs
@@ -25,7 +29,7 @@ escaped_current_sysroot=$(printf '%s\n' "${sysRoot}" | sed 's:[][\/.^$*]:\\&:g')
 sed -i -e "s/${escaped_old_sysroot}/${escaped_current_sysroot}/g" ${yocto_plugin_prefs}
 
 escaped_old_toolchain=$(printf '%s\n' "/home/kdatta/Documents/eclipse_package/eclipse_package/sdk" | sed 's:[][\/.^$*]:\\&:g')
-escaped_current_toolchain=$(printf '%s\n' "${toolChainRoot}" | sed 's:[][\/.^$*]:\\&:g')
+escaped_current_toolchain=$(printf '%s\n' "${toolChainRoot}/${hppsLinuxToolchainDir}" | sed 's:[][\/.^$*]:\\&:g')
 
 sed -i -e "s/${escaped_old_toolchain}/${escaped_current_toolchain}/g" ${yocto_plugin_prefs}
 
