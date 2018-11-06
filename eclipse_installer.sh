@@ -7,16 +7,8 @@ sysRoot=${PWD}/sysroot
 qemuFilesRoot=${PWD}/qemu_files
 
 # install the cross-toolchain SDK in the path specified by the user (which is recorded as "toolChainRoot")
-sdkInstaller=${PWD}/poky-glibc-x86_64-core-image-minimal-aarch64-toolchain-2.4.3.sh
-sdkOutputFile=${PWD}/sdk_output.txt
-
-${sdkInstaller} | tee ${sdkOutputFile}
-thirdLine=$(sed -n '3p' ${sdkOutputFile})
-IFS='\"' read -r junk1 toolChainRoot junk2 <<< "${thirdLine}"
-rm ${sdkOutputFile}
-
-# open the GNU ARM embedded toolchain (MODIFY THIS TO ALLOW THE USER TO CHOOSE PATH)
-tar -xvjf ${PWD}/gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz2
+echo "What is the directory path where the toolchains are installed?"
+read toolChainRoot
 
 # set up Eclipse workspace path
 eclipse_workspace_prefs=${PWD}/eclipse/configuration/.settings/org.eclipse.ui.ide.prefs
