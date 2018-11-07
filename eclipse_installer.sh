@@ -7,30 +7,33 @@ sysRoot=${PWD}/sysroot
 qemuFilesRoot=${PWD}/qemu_files
 
 # install the cross-toolchain SDK in the path specified by the user (which is recorded as "toolChainRoot")
-echo "What is the directory path where the toolchains (hpps_linux_toolchain and gcc-arm-none-eabi-7-2018-q2-update) are installed?"
+echo "What is the path of the root directory where the toolchains are installed?"
 read toolChainRoot
 echo "What is the name of the HPPS toolchain directory?"
-read hppsLinuxToolchainDir
+read hppsToolchainDir
 echo "What is the name of the GNU toolchain directory (for Arm Cortex-M and Cortex-R processors)?"
 read embeddedToolchainDir
 
-# set up Eclipse workspace path
+hppsToolchainRoot=${toolChainRoot}/${hppsToolchainDir}
+echo $hppsToolchainRoot
+embeddedToolchainRoot=${toolChainRoot}/${embeddedToolchainDir}
+echo $embeddedToolchainRoot
+
+# update the Eclipse workspace path
 eclipse_workspace_prefs=${PWD}/eclipse/configuration/.settings/org.eclipse.ui.ide.prefs
 escaped_old_workspace=$(printf '%s\n' "/home/kdatta/Documents/eclipse_package/eclipse_package/eclipse-workspace" | sed 's:[][\/.^$*]:\\&:g')
 escaped_current_workspace=$(printf '%s\n' "${PWD}/eclipse-workspace" | sed 's:[][\/.^$*]:\\&:g')
-
 sed -i -e "s/${escaped_old_workspace}/${escaped_current_workspace}/g" ${eclipse_workspace_prefs}
 
-# set up Eclipse's Yocto plug-in preferences to read the paths for sysRoot and toolChainRoot
+# update Eclipse's Yocto plug-in preferences to use the paths for sysRoot and toolChainRoot
 yocto_plugin_prefs=${PWD}/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.yocto.sdk.ide.1467355974.prefs
+
 escaped_old_sysroot=$(printf '%s\n' "/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot" | sed 's:[][\/.^$*]:\\&:g')
 escaped_current_sysroot=$(printf '%s\n' "${sysRoot}" | sed 's:[][\/.^$*]:\\&:g')
-
 sed -i -e "s/${escaped_old_sysroot}/${escaped_current_sysroot}/g" ${yocto_plugin_prefs}
 
 escaped_old_toolchain=$(printf '%s\n' "/home/kdatta/Documents/eclipse_package/eclipse_package/sdk" | sed 's:[][\/.^$*]:\\&:g')
-escaped_current_toolchain=$(printf '%s\n' "${toolChainRoot}/${hppsLinuxToolchainDir}" | sed 's:[][\/.^$*]:\\&:g')
-
+escaped_current_toolchain=$(printf '%s\n' "${hppsToolchainRoot}" | sed 's:[][\/.^$*]:\\&:g')
 sed -i -e "s/${escaped_old_toolchain}/${escaped_current_toolchain}/g" ${yocto_plugin_prefs}
 
 # set up Eclipse's External Tools Configurations to run QEMU
@@ -44,14 +47,16 @@ echo "<stringAttribute key=\"org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS\" 
 echo "<stringAttribute key=\"org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY\" value=\""${qemuFilesRoot}"\"/>" >> ${qemu_external_tools_config}
 echo "</launchConfiguration>" >> ${qemu_external_tools_config}
 
-# modify contents of "eclipse-workspace/simple_addition/" to reflect current directory structure
+# update the contents of "eclipse-workspace/simple_addition/" to reflect current directory structure and current toolchain path
 escaped_old_pwd=$(printf '%s\n' "/home/kdatta/Documents/eclipse_package/eclipse_package" | sed 's:[][\/.^$*]:\\&:g')
 escaped_current_pwd=$(printf '%s\n' "${PWD}" | sed 's:[][\/.^$*]:\\&:g')
 
 sed -i -e "s/${escaped_old_pwd}/${escaped_current_pwd}/g" ./eclipse-workspace/simple_addition/.settings/org.eclipse.cdt.core.prefs
+sed -i -e "s/${escaped_old_toolchain}/${escaped_current_toolchain}/g" ./eclipse-workspace/simple_addition/.settings/org.eclipse.cdt.core.prefs
 sed -i -e "s/${escaped_old_pwd}/${escaped_current_pwd}/g" ./eclipse-workspace/simple_addition/.autotools
 sed -i -e "s/${escaped_old_pwd}/${escaped_current_pwd}/g" ./eclipse-workspace/simple_addition/.gdbinit
 sed -i -e "s/${escaped_old_pwd}/${escaped_current_pwd}/g" ./eclipse-workspace/simple_addition/simple_addition_gdb_aarch64-poky-linux.launch
+sed -i -e "s/${escaped_old_toolchain}/${escaped_current_toolchain}/g" ./eclipse-workspace/simple_addition/simple_addition_gdb_aarch64-poky-linux.launch
 
 # modify the rest of "eclipse-workspace" to reflect the current directory structure
 sed -i -e "s/${escaped_old_pwd}/${escaped_current_pwd}/g" ./eclipse/p2/org.eclipse.equinox.p2.engine/profileRegistry/epp.package.cpp.profile/.data/.settings/org.eclipse.equinox.p2.metadata.repository.prefs
