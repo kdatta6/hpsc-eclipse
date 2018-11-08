@@ -51,3 +51,5 @@ echo "<stringAttribute key=\"org.eclipse.ui.externaltools.ATTR_LOCATION\" value=
 echo "<stringAttribute key=\"org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS\" value=\"-machine arm-generic-fdt -device loader,file=a53fsb.bin,addr=0xfffff000,cpu-num=0&#10;-nographic -serial mon:stdio -serial null&#10;-device loader,addr=0x6000000,file=hpsc-rootfs.cpio.gz.uboot&#10;-hw-dtb hpsc.dtb&#10;-device loader,file=bl31.elf,cpu-num=0&#10;-device loader,addr=0x4000000,file=linux-hpsc.dtb&#10;-device loader,addr=0x80000,file=Image&#10;-device loader,file=u-boot.elf&#10;-net nic -net nic -net nic -net nic,vlan=1 -net user,vlan=1,hostfwd=tcp:127.0.0.1:2345-10.0.2.15:2345,hostfwd=tcp:127.0.0.1:10022-10.0.2.15:22&#10;-device loader,file=m4resetA53.bin,cpu-num=10 -s\"/>" >> ${qemu_external_tools_config}
 echo "<stringAttribute key=\"org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY\" value=\""${qemuFilesRoot}"\"/>" >> ${qemu_external_tools_config}
 echo "</launchConfiguration>" >> ${qemu_external_tools_config}
+
+echo "Eclipse installation complete."
