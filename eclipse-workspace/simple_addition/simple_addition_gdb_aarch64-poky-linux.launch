@@ -2,9 +2,9 @@
 <launchConfiguration type="org.eclipse.cdt.launch.remoteApplicationLaunchType">
 <booleanAttribute key="org.eclipse.cdt.dsf.gdb.AUTO_SOLIB" value="false"/>
 <listAttribute key="org.eclipse.cdt.dsf.gdb.AUTO_SOLIB_LIST"/>
-<stringAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_NAME" value="/home/kdatta/Documents/eclipse_package/eclipse_package/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gdb"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_NAME" value="/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gdb"/>
 <booleanAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_ON_FORK" value="false"/>
-<stringAttribute key="org.eclipse.cdt.dsf.gdb.GDB_INIT" value="/home/kdatta/Documents/eclipse_package/eclipse_package/eclipse-workspace/simple_addition/.gdbinit"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.GDB_INIT" value="/home/kdatta/Documents/eclipse_package/hpsc-eclipse/eclipse-workspace/simple_addition/.gdbinit"/>
 <booleanAttribute key="org.eclipse.cdt.dsf.gdb.NON_STOP" value="false"/>
 <booleanAttribute key="org.eclipse.cdt.dsf.gdb.REMOTE_TIMEOUT_ENABLED" value="false"/>
 <stringAttribute key="org.eclipse.cdt.dsf.gdb.REMOTE_TIMEOUT_VALUE" value=""/>

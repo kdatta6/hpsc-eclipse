@@ -20,6 +20,16 @@ com.jcraft.jsch,0.1.54.v20170116-1932,plugins/com.jcraft.jsch_0.1.54.v20170116-1
 com.jcraft.jzlib,1.1.1.v201205102305,plugins/com.jcraft.jzlib_1.1.1.v201205102305.jar,4,false
 com.spotify.docker.client,8.9.2.v20180207-1730,plugins/com.spotify.docker.client_8.9.2.v20180207-1730.jar,4,false
 com.sun.el,2.2.0.v201303151357,plugins/com.sun.el_2.2.0.v201303151357.jar,4,false
+ilg.gnumcueclipse.core,4.4.2.201809300659,plugins/ilg.gnumcueclipse.core_4.4.2.201809300659.jar,4,false
+ilg.gnumcueclipse.debug.core,1.2.2.201809300659,plugins/ilg.gnumcueclipse.debug.core_1.2.2.201809300659.jar,4,false
+ilg.gnumcueclipse.managedbuild.cross,1.2.3.201809300659,plugins/ilg.gnumcueclipse.managedbuild.cross_1.2.3.201809300659.jar,4,false
+ilg.gnumcueclipse.managedbuild.cross.arm,2.6.4.201809300659,plugins/ilg.gnumcueclipse.managedbuild.cross.arm_2.6.4.201809300659.jar,4,false
+ilg.gnumcueclipse.managedbuild.cross.riscv,2.8.2.201809300659,plugins/ilg.gnumcueclipse.managedbuild.cross.riscv_2.8.2.201809300659.jar,4,false
+ilg.gnumcueclipse.managedbuild.packs,1.3.4.201809300659,plugins/ilg.gnumcueclipse.managedbuild.packs_1.3.4.201809300659.jar,4,false
+ilg.gnumcueclipse.packs.core,2.2.2.201809300659,plugins/ilg.gnumcueclipse.packs.core_2.2.2.201809300659.jar,4,false
+ilg.gnumcueclipse.packs.data,2.2.2.201809300659,plugins/ilg.gnumcueclipse.packs.data_2.2.2.201809300659.jar,4,false
+ilg.gnumcueclipse.templates.core,2.6.3.201809300659,plugins/ilg.gnumcueclipse.templates.core_2.6.3.201809300659/,4,false
+ilg.gnumcueclipse.templates.cortexm,1.4.4.201809300659,plugins/ilg.gnumcueclipse.templates.cortexm_1.4.4.201809300659/,4,false
 javaewah,1.1.6.v20160919-1400,plugins/javaewah_1.1.6.v20160919-1400.jar,4,false
 javassist,3.13.0.GA_v201209210905,plugins/javassist_3.13.0.GA_v201209210905.jar,4,false
 javax.annotation,1.2.0.v201602091430,plugins/javax.annotation_1.2.0.v201602091430.jar,4,false

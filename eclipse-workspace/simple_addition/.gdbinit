@@ -1,1 +1,1 @@
-set sysroot /home/kdatta/Documents/eclipse_package/eclipse_package/sysroot
+set sysroot /home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot

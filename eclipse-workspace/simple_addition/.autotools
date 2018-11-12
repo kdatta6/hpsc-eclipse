@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurations>
 <configuration id="org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620">
-<option id="configure" value="CFLAGS=&quot; -g -O0  --sysroot=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot&quot; CXXFLAGS=&quot; -g -O0  --sysroot=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot&quot; LDFLAGS=&quot; --sysroot=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot&quot; CPPFLAGS=&quot; --sysroot=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot&quot; configure --with-libtool-sysroot=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot"/>
+<option id="configure" value="CFLAGS=&quot; -g -O0  --sysroot=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot&quot; CXXFLAGS=&quot; -g -O0  --sysroot=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot&quot; LDFLAGS=&quot; --sysroot=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot&quot; CPPFLAGS=&quot; --sysroot=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot&quot; configure --with-libtool-sysroot=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot"/>
 <option id="configdir" value=""/>
 <option id="cache-file" value=""/>
 <option id="help" value="false"/>
@@ -37,8 +37,8 @@
 <flagvalue id="cflags-gcov" value="false"/>
 </flag>
 <option id="user" value=""/>
-<option id="autogen" value="CFLAGS=&quot; -g -O0  --sysroot=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot&quot; CXXFLAGS=&quot; -g -O0  --sysroot=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot&quot; LDFLAGS=&quot; --sysroot=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot&quot; CPPFLAGS=&quot; --sysroot=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot&quot; autogen.sh --with-libtool-sysroot=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot"/>
-<option id="autogenOpts" value="--target=aarch64-poky-linux --host=aarch64-poky-linux --build=x86_64-linux --with-libtool-sysroot=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot"/>
+<option id="autogen" value="CFLAGS=&quot; -g -O0  --sysroot=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot&quot; CXXFLAGS=&quot; -g -O0  --sysroot=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot&quot; LDFLAGS=&quot; --sysroot=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot&quot; CPPFLAGS=&quot; --sysroot=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot&quot; autogen.sh --with-libtool-sysroot=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot"/>
+<option id="autogenOpts" value="--target=aarch64-poky-linux --host=aarch64-poky-linux --build=x86_64-linux --with-libtool-sysroot=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot"/>
 </configuration>
 <configuration id="org.eclipse.linuxtools.cdt.autotools.core.configuration.build.debug.1940753966">
 <option id="configure" value="configure"/>

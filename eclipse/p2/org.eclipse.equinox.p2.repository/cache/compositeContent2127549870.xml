@@ -3,13 +3,15 @@
 <repository name='CDT 9.5 Update Site'
     type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='1532374011204'/>
+    <property name='p2.timestamp' value='1539238433236'/>
   </properties>
-  <children size='5'>
+  <children size='7'>
     <child location='../../launchbar/photon/m7'/>
     <child location='../../launchbar/2.2/launchbar-2.2.1'/>
     <child location='cdt-9.5.0'/>
     <child location='cdt-9.5.1'/>
     <child location='cdt-9.5.2'/>
+    <child location='cdt-9.5.3'/>
+    <child location='cdt-9.5.4'/>
   </children>
 </repository>

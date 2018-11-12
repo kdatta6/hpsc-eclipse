@@ -1,6 +1,6 @@
 SDKMode=true
-Sysroot=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot
+Sysroot=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot
 TargetMode=false
 eclipse.preferences.version=1
-toolChainRoot=/home/kdatta/Documents/eclipse_package/eclipse_package/sdk
+toolChainRoot=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps
 toolchainTriplet=aarch64-poky-linux

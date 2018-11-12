@@ -10,43 +10,43 @@ environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.buil
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/AS/value=aarch64-poky-linux-as 
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CC/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CC/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CC/value=aarch64-poky-linux-gcc  --sysroot\=/home/kdatta/Documents/eclipse_package/eclipse_package/sdk/sysroots/aarch64-poky-linux
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CC/value=aarch64-poky-linux-gcc  --sysroot\=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps/sysroots/aarch64-poky-linux
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CFLAGS/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CFLAGS/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CFLAGS/value=\ --sysroot\=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CFLAGS/value=\ --sysroot\=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CONFIGURE_FLAGS/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CONFIGURE_FLAGS/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CONFIGURE_FLAGS/value=--target\=aarch64-poky-linux --host\=aarch64-poky-linux --build\=x86_64-linux --with-libtool-sysroot\=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CONFIGURE_FLAGS/value=--target\=aarch64-poky-linux --host\=aarch64-poky-linux --build\=x86_64-linux --with-libtool-sysroot\=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CONFIG_SITE/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CONFIG_SITE/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CONFIG_SITE/value=/home/kdatta/Documents/eclipse_package/eclipse_package/sdk/site-config-aarch64-poky-linux
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CONFIG_SITE/value=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps/site-config-aarch64-poky-linux
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CPP/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CPP/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CPP/value=aarch64-poky-linux-gcc -E  --sysroot\=/home/kdatta/Documents/eclipse_package/eclipse_package/sdk/sysroots/aarch64-poky-linux
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CPP/value=aarch64-poky-linux-gcc -E  --sysroot\=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps/sysroots/aarch64-poky-linux
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CPPFLAGS/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CPPFLAGS/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CPPFLAGS/value=\ --sysroot\=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CPPFLAGS/value=\ --sysroot\=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CROSS_COMPILE/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CROSS_COMPILE/operation=replace
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CROSS_COMPILE/value=aarch64-poky-linux-
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CXX/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CXX/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CXX/value=aarch64-poky-linux-g++  --sysroot\=/home/kdatta/Documents/eclipse_package/eclipse_package/sdk/sysroots/aarch64-poky-linux
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CXX/value=aarch64-poky-linux-g++  --sysroot\=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps/sysroots/aarch64-poky-linux
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CXXFLAGS/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CXXFLAGS/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CXXFLAGS/value=\ --sysroot\=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/CXXFLAGS/value=\ --sysroot\=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/GDB/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/GDB/operation=replace
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/GDB/value=aarch64-poky-linux-gdb
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/KCFLAGS/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/KCFLAGS/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/KCFLAGS/value=--sysroot\=/home/kdatta/Documents/eclipse_package/eclipse_package/sdk/sysroots/aarch64-poky-linux
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/KCFLAGS/value=--sysroot\=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps/sysroots/aarch64-poky-linux
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/LD/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/LD/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/LD/value=aarch64-poky-linux-ld  --sysroot\=/home/kdatta/Documents/eclipse_package/eclipse_package/sdk/sysroots/aarch64-poky-linux
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/LD/value=aarch64-poky-linux-ld  --sysroot\=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps/sysroots/aarch64-poky-linux
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/LDFLAGS/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/LDFLAGS/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/LDFLAGS/value=\ --sysroot\=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/LDFLAGS/value=\ --sysroot\=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/M4/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/M4/operation=replace
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/M4/value=m4
@@ -61,28 +61,28 @@ environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.buil
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OBJDUMP/value=aarch64-poky-linux-objdump
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_ACLOCAL_OPTS/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_ACLOCAL_OPTS/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_ACLOCAL_OPTS/value=-I /home/kdatta/Documents/eclipse_package/eclipse_package/sdk/sysroots/x86_64-pokysdk-linux/usr/share/aclocal
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_ACLOCAL_OPTS/value=-I /home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps/sysroots/x86_64-pokysdk-linux/usr/share/aclocal
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_DISTRO_VERSION/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_DISTRO_VERSION/operation=replace
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_DISTRO_VERSION/value=2.4.3
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_NATIVE_SYSROOT/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_NATIVE_SYSROOT/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_NATIVE_SYSROOT/value=/home/kdatta/Documents/eclipse_package/eclipse_package/sdk/sysroots/x86_64-pokysdk-linux
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_NATIVE_SYSROOT/value=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps/sysroots/x86_64-pokysdk-linux
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_SDK_VERSION/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_SDK_VERSION/operation=replace
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_SDK_VERSION/value=2.4.3
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_TARGET_SYSROOT/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_TARGET_SYSROOT/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_TARGET_SYSROOT/value=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/OECORE_TARGET_SYSROOT/value=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/PATH/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/PATH/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/PATH/value=/home/kdatta/Documents/eclipse_package/eclipse_package/sdk/sysroots/x86_64-pokysdk-linux/usr/bin\:/home/kdatta/Documents/eclipse_package/eclipse_package/sdk/sysroots/x86_64-pokysdk-linux/usr/sbin\:/home/kdatta/Documents/eclipse_package/eclipse_package/sdk/sysroots/x86_64-pokysdk-linux/bin\:/home/kdatta/Documents/eclipse_package/eclipse_package/sdk/sysroots/x86_64-pokysdk-linux/sbin\:/home/kdatta/Documents/eclipse_package/eclipse_package/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin\:/home/kdatta/Documents/eclipse_package/eclipse_package/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux\:/home/kdatta/Documents/eclipse_package/eclipse_package/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux-musl\:/usr/lib/jvm/java-1.8.0-openjdk/bin\:/usr/lib/jvm/java-1.8.0-openjdk/bin\:/usr/lib64/ccache\:/usr/local/bin\:/usr/local/sbin\:/usr/bin\:/usr/sbin\:/bin\:/sbin\:/home/kdatta/.local/bin\:/home/kdatta/bin\:/home/kdatta/Downloads/apache-maven-3.5.4/bin\:/home/kdatta/.local/bin\:/home/kdatta/bin\:/home/kdatta/Downloads/apache-maven-3.5.4/bin
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/PATH/value=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps/sysroots/x86_64-pokysdk-linux/usr/bin\:/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps/sysroots/x86_64-pokysdk-linux/usr/sbin\:/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps/sysroots/x86_64-pokysdk-linux/bin\:/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps/sysroots/x86_64-pokysdk-linux/sbin\:/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin\:/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux\:/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux-musl\:/usr/lib/jvm/java-1.8.0-openjdk/bin\:/usr/lib/jvm/java-1.8.0-openjdk/bin\:/usr/lib64/ccache\:/usr/local/bin\:/usr/local/sbin\:/usr/bin\:/usr/sbin\:/bin\:/sbin\:/home/kdatta/.local/bin\:/home/kdatta/bin\:/home/kdatta/Downloads/apache-maven-3.5.4/bin\:/home/kdatta/.local/bin\:/home/kdatta/bin\:/home/kdatta/Downloads/apache-maven-3.5.4/bin
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/PKG_CONFIG_PATH/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/PKG_CONFIG_PATH/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/PKG_CONFIG_PATH/value=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot/usr/lib/pkgconfig
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/PKG_CONFIG_PATH/value=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot/usr/lib/pkgconfig
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/PKG_CONFIG_SYSROOT_DIR/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/PKG_CONFIG_SYSROOT_DIR/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/PKG_CONFIG_SYSROOT_DIR/value=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/PKG_CONFIG_SYSROOT_DIR/value=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/QemuKernel/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/QemuKernel/operation=replace
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/QemuKernel/value=
@@ -97,13 +97,13 @@ environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.buil
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/SDKMode/value=true
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/SDKTARGETSYSROOT/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/SDKTARGETSYSROOT/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/SDKTARGETSYSROOT/value=/home/kdatta/Documents/eclipse_package/eclipse_package/sdk/sysroots/aarch64-poky-linux
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/SDKTARGETSYSROOT/value=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps/sysroots/aarch64-poky-linux
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/STRIP/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/STRIP/operation=replace
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/STRIP/value=aarch64-poky-linux-strip
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/Sysroot/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/Sysroot/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/Sysroot/value=/home/kdatta/Documents/eclipse_package/eclipse_package/sysroot
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/Sysroot/value=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/sysroot
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/TARGET_PREFIX/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/TARGET_PREFIX/operation=replace
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/TARGET_PREFIX/value=aarch64-poky-linux-
@@ -117,7 +117,7 @@ environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.buil
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/targeArchIndex/value=0
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/toolChainRoot/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/toolChainRoot/operation=replace
-environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/toolChainRoot/value=/home/kdatta/Documents/eclipse_package/eclipse_package/sdk
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/toolChainRoot/value=/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/hpps
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/toolchainTriplet/delimiter=\:
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/toolchainTriplet/operation=replace
 environment/project/org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1221371620/toolchainTriplet/value=aarch64-poky-linux
