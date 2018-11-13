@@ -6,4 +6,4 @@ Installing:
   $ sudo make install
 
 Running:
-  $ simple_addition
+  $ hpps_simple_addition

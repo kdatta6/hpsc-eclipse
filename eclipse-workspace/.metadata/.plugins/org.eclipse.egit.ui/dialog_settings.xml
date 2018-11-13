@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<item value="1" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
 	<list key="RepositorySelectionPage.UsedUris">
-		<item value="https://github.com/ISI-apex/hpsc-baremetal.git"/>
+		<item value="https://github.com/ISI-apex/hpsc-baremetal"/>
 	</list>
 	<list key="EGit.KnownHosts">
 		<item value="bitbucket.org"/>

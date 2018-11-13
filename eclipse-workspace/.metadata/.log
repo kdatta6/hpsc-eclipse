@@ -1429,7 +1429,7 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.launchbar.core 2 0 2018-11-09 16:07:09.078
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
-!SESSION 2018-11-13 13:50:40.490 -----------------------------------------------
+!SESSION 2018-11-13 14:40:13.711 -----------------------------------------------
 eclipse.buildId=4.8.0.I20180531-0700
 java.version=1.8.0_181
 java.vendor=Oracle Corporation
@@ -1437,27 +1437,27 @@ BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.cpp.product
 Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
 
-!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 13:50:54.569
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 14:40:30.768
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.arduino.core.descriptorType
 
-!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 13:50:54.718
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 14:40:30.830
 !MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
 
-!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 13:50:54.718
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 14:40:30.837
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
 
-!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 13:50:54.718
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 14:40:30.837
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
 
-!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 13:50:54.718
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 14:40:30.837
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
 
-!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 13:50:54.719
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 14:40:30.837
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
 
-!ENTRY org.eclipse.cdt.core 1 0 2018-11-13 13:54:53.741
-!MESSAGE Indexed 'hpsc-baremetal' (28 sources, 20 headers) in 3.24 sec: 1,287 declarations; 5,559 references; 51 unresolved inclusions; 9 syntax errors; 502 unresolved names (6.8%)
-!SESSION 2018-11-13 13:56:10.787 -----------------------------------------------
+!ENTRY org.eclipse.cdt.core 1 0 2018-11-13 14:53:29.791
+!MESSAGE Indexed 'hpsc-baremetal' (28 sources, 20 headers) in 6.95 sec: 1,287 declarations; 5,559 references; 51 unresolved inclusions; 9 syntax errors; 502 unresolved names (6.8%)
+!SESSION 2018-11-13 15:18:08.064 -----------------------------------------------
 eclipse.buildId=4.8.0.I20180531-0700
 java.version=1.8.0_181
 java.vendor=Oracle Corporation
@@ -1465,20 +1465,73 @@ BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.cpp.product
 Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
 
-!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 13:56:21.274
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 15:18:21.432
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.arduino.core.descriptorType
 
-!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 13:56:21.307
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 15:18:21.448
 !MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
 
-!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 13:56:21.307
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 15:18:21.448
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
 
-!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 13:56:21.308
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 15:18:21.448
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
 
-!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 13:56:21.308
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 15:18:21.449
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
 
-!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 13:56:21.308
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 15:18:21.449
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2018-11-13 17:15:09.548 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180531-0700
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 17:15:20.077
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.arduino.core.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 17:15:20.081
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 17:15:20.081
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 17:15:20.081
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 17:15:20.081
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 17:15:20.081
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-11-13 17:16:07.321
+!MESSAGE Indexed 'hpps_simple_addition' (1 sources, 36 headers) in 1.15 sec: 1,023 declarations; 1,832 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2018-11-13 17:36:37.544 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180531-0700
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 17:36:48.049
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.arduino.core.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 17:36:48.057
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 17:36:48.057
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 17:36:48.058
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 17:36:48.058
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-13 17:36:48.058
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_vK8VYbLREeiJc_v9B76PiQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_vK8VYrLREeiJc_v9B76PiQ" bindingContexts="_vK8VZLLREeiJc_v9B76PiQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;hello_world_cortex-m/src/main.c&quot;>&#xA;&lt;persistable path=&quot;/hello_world_cortex-m/src/main.c&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;simple_addition.c&quot; tooltip=&quot;simple_addition/src/simple_addition.c&quot;>&#xA;&lt;persistable path=&quot;/simple_addition/src/simple_addition.c&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;hpps_simple_addition.c&quot; tooltip=&quot;hpps_simple_addition/src/hpps_simple_addition.c&quot;>&#xA;&lt;persistable path=&quot;/hpps_simple_addition/src/hpps_simple_addition.c&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;hello_world_cortex-m/src/main.c&quot;>&#xA;&lt;persistable path=&quot;/hello_world_cortex-m/src/main.c&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;simple_addition.c&quot; tooltip=&quot;simple_addition/src/simple_addition.c&quot;>&#xA;&lt;persistable path=&quot;/simple_addition/src/simple_addition.c&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_vK8VYrLREeiJc_v9B76PiQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_vxq-MrLREeiJc_v9B76PiQ" label="%trimmedwindow.label.eclipseSDK" x="0" y="28" width="2175" height="1244">
@@ -97,7 +97,7 @@
                 <tags>categoryTag:Connections</tags>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_wbXbebLREeiJc_v9B76PiQ" containerData="7500" selectedElement="_wbXbgLLREeiJc_v9B76PiQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_wbXbebLREeiJc_v9B76PiQ" containerData="7500" selectedElement="_wbXberLREeiJc_v9B76PiQ">
               <children xsi:type="basic:PartSashContainer" xmi:id="_wbXberLREeiJc_v9B76PiQ" containerData="5914" selectedElement="_wbXbe7LREeiJc_v9B76PiQ" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_wbXbe7LREeiJc_v9B76PiQ" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_wbCEQLLREeiJc_v9B76PiQ"/>
                 <children xsi:type="basic:PartStack" xmi:id="_wbXbfLLREeiJc_v9B76PiQ" elementId="topRight" containerData="2500" selectedElement="_wbXbfbLREeiJc_v9B76PiQ">
@@ -187,11 +187,12 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_wbCEQLLREeiJc_v9B76PiQ" elementId="org.eclipse.ui.editorss" selectedElement="_wbCEQbLREeiJc_v9B76PiQ">
-      <children xsi:type="basic:PartStack" xmi:id="_wbCEQbLREeiJc_v9B76PiQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_xvr7oL2pEeiuApw7I8TszQ">
+      <children xsi:type="basic:PartStack" xmi:id="_wbCEQbLREeiJc_v9B76PiQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_w9iAIOeREei-oNfSpeAeEQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <children xsi:type="basic:Part" xmi:id="_xvr7oL2pEeiuApw7I8TszQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="simple_addition.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;simple_addition.c&quot; partName=&quot;simple_addition.c&quot; title=&quot;simple_addition.c&quot; tooltip=&quot;simple_addition/src/simple_addition.c&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/simple_addition/src/simple_addition.c&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1630&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+        <tags>noFocus</tags>
+        <children xsi:type="basic:Part" xmi:id="_w9iAIOeREei-oNfSpeAeEQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="hpps_simple_addition.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;hpps_simple_addition.c&quot; partName=&quot;hpps_simple_addition.c&quot; title=&quot;hpps_simple_addition.c&quot; tooltip=&quot;hpps_simple_addition/src/hpps_simple_addition.c&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/hpps_simple_addition/src/hpps_simple_addition.c&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1797&quot; selectionTopPixel=&quot;29&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
           <tags>removeOnHide</tags>
@@ -322,7 +323,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_wB1hILLREeiJc_v9B76PiQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_zIKVYOd1EeipMLTBihP3ZA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_vMmiSrLREeiJc_v9B76PiQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_mE6JYOeUEeig1bocyranTg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_vMmiSrLREeiJc_v9B76PiQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_wB2vQLLREeiJc_v9B76PiQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -353,7 +354,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_wB3WUrLREeiJc_v9B76PiQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_zIOm0ed1EeipMLTBihP3ZA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_vMl7N7LREeiJc_v9B76PiQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_mE8loeeUEeig1bocyranTg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_vMl7N7LREeiJc_v9B76PiQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_wB3WU7LREeiJc_v9B76PiQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
