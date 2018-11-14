@@ -25,8 +25,6 @@ cd ../hpsc_baremetal_proj_files
 cp -r .cproject .project .settings ../eclipse-workspace/hpsc-baremetal
 cd ..
 
-echo ${PWD}
-
 # list the old and new paths for the updated variables
 old_eclipse=$(printf '%s\n' "/home/kdatta/Documents/eclipse_package/hpsc-eclipse/eclipse" | sed 's:[][\/.^$*]:\\&:g')
 new_eclipse=$(printf '%s\n' "${PWD}/eclipse" | sed 's:[][\/.^$*]:\\&:g')
