@@ -25,6 +25,8 @@ cd ../hpsc_baremetal_proj_files
 cp -r .cproject .project .settings ../eclipse-workspace/hpsc-baremetal
 cd ..
 
+echo ${PWD}
+
 # list the old and new paths for the updated variables
 old_eclipse=$(printf '%s\n' "/home/kdatta/Documents/eclipse_package/hpsc-eclipse/eclipse" | sed 's:[][\/.^$*]:\\&:g')
 new_eclipse=$(printf '%s\n' "${PWD}/eclipse" | sed 's:[][\/.^$*]:\\&:g')
@@ -37,12 +39,17 @@ new_hpps_toolchain=$(printf '%s\n' "${hppsToolchainRoot}" | sed 's:[][\/.^$*]:\\
 old_baremetal_toolchain=$(printf '%s\n' "/home/kdatta/Documents/eclipse_package/hpsc-eclipse/toolchains/non_hpps" | sed 's:[][\/.^$*]:\\&:g')
 new_baremetal_toolchain=$(printf '%s\n' "${baremetalToolchainRoot}" | sed 's:[][\/.^$*]:\\&:g')
 
-# update the contents of the "eclipse" directory to reflect new directory structure
-sed -i -e "s/${old_baremetal_toolchain}/${new_baremetal_toolchain}/g" *
-sed -i -e "s/${old_workspace}/${new_workspace}/g" *
-sed -i -e "s/${old_sysroot}/${new_sysroot}/g" *
-sed -i -e "s/${old_hpps_toolchain}/${new_hpps_toolchain}/g" *
-sed -i -e "s/${old_baremetal_toolchain}/${new_baremetal_toolchain}/g" *
+# update the contents of the "eclipse" and "eclipse-workspace" directories to reflect the new directory structure
+find ./eclipse -type f -exec sed -i "s/${old_eclipse}/${new_eclipse}/g" {} +
+find ./eclipse-workspace -type f -exec sed -i "s/${old_eclipse}/${new_eclipse}/g" {} +
+find ./eclipse -type f -exec sed -i "s/${old_workspace}/${new_workspace}/g" {} +
+find ./eclipse-workspace -type f -exec sed -i "s/${old_workspace}/${new_workspace}/g" {} +
+find ./eclipse -type f -exec sed -i "s/${old_sysroot}/${new_sysroot}/g" {} +
+find ./eclipse-workspace -type f -exec sed -i "s/${old_sysroot}/${new_sysroot}/g" {} +
+find ./eclipse -type f -exec sed -i "s/${old_hpps_toolchain}/${new_hpps_toolchain}/g" {} +
+find ./eclipse-workspace -type f -exec sed -i "s/${old_hpps_toolchain}/${new_hpps_toolchain}/g" {} +
+find ./eclipse -type f -exec sed -i "s/${old_baremetal_toolchain}/${new_baremetal_toolchain}/g" {} +
+find ./eclipse-workspace -type f -exec sed -i "s/${old_baremetal_toolchain}/${new_baremetal_toolchain}/g" {} +
 
 # update the contents of the "eclipse-workspace" directory to reflect new directory structure and new toolchain path
 #sed -i -e "s/${old_sysroot}/${new_sysroot}/g" ${PWD}/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.yocto.sdk.ide.1467355974.prefs
