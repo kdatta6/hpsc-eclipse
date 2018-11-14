@@ -6,7 +6,7 @@ sysRoot=${PWD}/sysroot
 # path of directory where the required QEMU files are located
 qemuFilesRoot=${PWD}/qemu_files
 
-# install the cross-toolchain SDK in the path specified by the user (which is recorded as "toolChainRoot")
+# query the user for the toolchain paths
 echo "Path of the root directory where the toolchains are installed:"
 read toolChainRoot
 echo "Name of the HPPS toolchain directory:"
@@ -48,16 +48,6 @@ find ./eclipse -type f -exec sed -i "s/${old_hpps_toolchain}/${new_hpps_toolchai
 find ./eclipse-workspace -type f -exec sed -i "s/${old_hpps_toolchain}/${new_hpps_toolchain}/g" {} +
 find ./eclipse -type f -exec sed -i "s/${old_baremetal_toolchain}/${new_baremetal_toolchain}/g" {} +
 find ./eclipse-workspace -type f -exec sed -i "s/${old_baremetal_toolchain}/${new_baremetal_toolchain}/g" {} +
-
-# update the contents of the "eclipse-workspace" directory to reflect new directory structure and new toolchain path
-#sed -i -e "s/${old_sysroot}/${new_sysroot}/g" ${PWD}/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.yocto.sdk.ide.1467355974.prefs
-#sed -i -e "s/${old_hpps_toolchain}/${new_hpps_toolchain}/g" ${PWD}/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.yocto.sdk.ide.1467355974.prefs
-#sed -i -e "s/${old_sysroot}/${new_sysroot}/g" ${PWD}/eclipse-workspace/simple_addition/.settings/org.eclipse.cdt.core.prefs
-#sed -i -e "s/${old_hpps_toolchain}/${new_hpps_toolchain}/g" ${PWD}/eclipse-workspace/simple_addition/.settings/org.eclipse.cdt.core.prefs
-#sed -i -e "s/${old_sysroot}/${new_sysroot}/g" ${PWD}/eclipse-workspace/simple_addition/.autotools
-#sed -i -e "s/${old_sysroot}/${new_sysroot}/g" ${PWD}/eclipse-workspace/simple_addition/.gdbinit
-#sed -i -e "s/${old_workspace}/${new_workspace}/g" ${PWD}/eclipse-workspace/simple_addition/simple_addition_gdb_aarch64-poky-linux.launch
-#sed -i -e "s/${old_hpps_toolchain}/${new_hpps_toolchain}/g" ${PWD}/eclipse-workspace/simple_addition/simple_addition_gdb_aarch64-poky-linux.launch
 
 # set up Eclipse's External Tools Configurations to run QEMU
 qemu_external_tools_config=${PWD}/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/QEMU.launch
