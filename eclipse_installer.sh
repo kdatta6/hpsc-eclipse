@@ -22,7 +22,7 @@ embeddedToolchainRoot=${toolChainRoot}/${embeddedToolchainDir}
 cd eclipse-workspace
 git clone -b hpsc https://github.com/ISI-apex/hpsc-baremetal.git
 cd ../hpsc_baremetal_proj_files
-cp -r .cproject .project .settings ../eclipse-workspace/hpsc_baremetal
+cp -r .cproject .project .settings ../eclipse-workspace/hpsc-baremetal
 cd ..
 
 # list the old and new paths
